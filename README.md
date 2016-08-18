@@ -1,6 +1,7 @@
 # ESP8266_12E(NodeMCU 1.0)
 ---
 * ESP8266_12E 사용 준비  
+* 
 1. NodeMCU 1.0모듈을 usb케이블을 이용해 컴퓨터와 연결하면 잠시 후 장치관리자가 알아서 드라이버를 설치하고 포트를 잡는다. 포트가 안잡힐 경우 CP2102 usb driver를 검색해서 설치한다.  
 2. 아두이노 IDE를 열고 파일 - 환경설정 - 추가적인 보드 매니저 URLs에 'http://arduino.esp8266.com/stable/package_esp8266com_index.json'를 붙여 넣는다.  
 3. 툴 - 보드매니저를 열고 'esp8266 by ESP8266 Community'를 클릭한다.   
@@ -10,6 +11,7 @@
 
 ---
 * 와이파이 웹서버 테스트  
+* 
 1. 아두이노 IDE의 파일 - 예제 - ESP8266WiFi - WiFiWebServer를 선택한다.  
 2. 와이파이 SSID와 PW를 수정한다.   
 3. 업로드한다.   
