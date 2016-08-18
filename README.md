@@ -16,11 +16,11 @@
 2. 와이파이 SSID와 PW를 수정한다.   
 3. 업로드한다.   
 4. 시리얼 모니터를 누르면 다음과 같이 ip주소가 나온다.   
-Connecting to mtinet
-.....
-WiFi connected
-Server started
-192.168.43.164
+Connecting to mtinet  
+.....  
+WiFi connected  
+Server started  
+192.168.43.164  
 
 5. ESP8266_12E 모듈이 접속해 있는 공유기에 접속된 다른 모듈을 통해 해당IP/gpio/0으로 접속하면 자체 칩 LED가 켜지고 해당IP/gpio/1으로 접속하면 자체 칩 LED가 꺼진다.   
 6. HTML 부분을 원하는대로 편집한다.(이미지 링크도 잘 됨.)
