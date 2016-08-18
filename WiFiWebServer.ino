@@ -86,6 +86,7 @@ void loop() {
   String s = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\n<h1>GPIO is now</h1> ";
   s += (val)?"<h1>high</h1>":"<h1>low</h1>";
   s += "<img src='https://lh4.ggpht.com/yPq0eEBNR4g530UHDfpbtwe-yiAMLVjUcnGCsjW9_K9VniuLr_YbeefSsd3uqYvZWJ8=w300'>";
+  s += '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZicP4y-nFg4" frameborder="0" allowfullscreen></iframe>';
   s += "</html>\n";
 
   // Send the response to the client
