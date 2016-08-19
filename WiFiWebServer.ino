@@ -9,8 +9,8 @@
 
 #include <ESP8266WiFi.h>
 
-const char* ssid = "mtinet";
-const char* password = "33333333";
+const char* ssid = "Your HotSpot ID";
+const char* password = "Your HotSpot PW";
 
 // Create an instance of the server
 // specify the port to listen on as an argument
