@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Esp8266 12e by mtinet</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Esp8266 12e</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/mtinet/ESP8266_12E/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/mtinet/ESP8266_12E/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/mtinet/ESP8266_12E" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="esp8266_12enodemcu-10" class="anchor" href="#esp8266_12enodemcu-10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ESP8266_12E(NodeMCU 1.0)</h1>
+
+<hr>
+
+<h2>
+<a id="-esp8266_12e-사용-준비--" class="anchor" href="#-esp8266_12e-%EC%82%AC%EC%9A%A9-%EC%A4%80%EB%B9%84--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>* ESP8266_12E 사용 준비  </h2>
+
+<ol>
+<li>NodeMCU 1.0모듈을 usb케이블을 이용해 컴퓨터와 연결하면 잠시 후 장치관리자가 알아서 드라이버를 설치하고 포트를 잡는다. 포트가 안잡힐 경우 CP2102 usb driver를 검색해서 설치한다.<br>
+</li>
+<li>아두이노 IDE를 열고 파일 - 환경설정 - 추가적인 보드 매니저 URLs에 <a href="http://arduino.esp8266.com/stable/package_esp8266com_index.json">http://arduino.esp8266.com/stable/package_esp8266com_index.json</a> 를 붙여 넣는다.<br>
+</li>
+<li>툴 - 보드매니저를 열고 'esp8266 by ESP8266 Community'를 클릭한다.<br>
+</li>
+<li>'설치' 버튼을 눌러 해당 보드를 설치한다.<br>
+</li>
+<li>설치가 완료되면 파일 - 예제에 ESP8266관련 예제가 생성된다. 이 때 예제 옆의 ()안에 esp8266이라고 써 있는 예제는 기존의 아두이노에서 적용할 수 없게 된다.<br>
+</li>
+<li>툴에서 보드는 NodeMCU 1.0(ESP-12E Module), CPU Frequency는 80MHz, Flash Size는 4M(3M SPIFFS), Upload Speed는 115200으로 자동 세팅되는데, 그대로 사용하면 된다. 포트는 해당 모듈이 연결된 포트를 장치관리자 - 포트를 확인하여 선택한다.<br>
+</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="-와이파이-웹서버-테스트--" class="anchor" href="#-%EC%99%80%EC%9D%B4%ED%8C%8C%EC%9D%B4-%EC%9B%B9%EC%84%9C%EB%B2%84-%ED%85%8C%EC%8A%A4%ED%8A%B8--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>* 와이파이 웹서버 테스트  </h2>
+
+<ol>
+<li>아두이노 IDE의 파일 - 예제 - ESP8266WiFi - WiFiWebServer를 선택한다.<br>
+</li>
+<li>와이파이 SSID와 PW를 수정한다.<br>
+</li>
+<li>업로드한다.<br>
+</li>
+<li><p>시리얼 모니터를 누르면 다음과 같이 ip주소가 나온다.<br>
+Connecting to mtinet<br>
+.....<br>
+WiFi connected<br>
+Server started<br>
+192.168.43.***   </p></li>
+<li><p>ESP8266_12E 모듈이 접속해 있는 공유기에 접속된 다른 모듈을 통해 해당IP/gpio/0으로 접속하면 자체 칩 LED가 켜지고 해당IP/gpio/1으로 접속하면 자체 칩 LED가 꺼진다.   </p></li>
+<li>HTML 부분을 원하는대로 편집한다.(이미지 링크도 잘 됨.)</li>
+</ol>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
