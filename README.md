@@ -25,4 +25,6 @@ Server started
 5. ESP8266_12E 모듈이 접속해 있는 공유기에 접속된 다른 모듈을 통해 해당IP/gpio/0으로 접속하면 자체 칩 LED가 켜지고 해당IP/gpio/1으로 접속하면 자체 칩 LED가 꺼진다.   
 6. HTML 부분을 원하는대로 편집한다.(이미지 링크도 잘 됨.)
 
+
+관련 동영상은 아래 사진을 클릭하세요.
 [![](https://raw.githubusercontent.com/mtinet/ESP8266_12E/master/image.png)](https://www.youtube.com/watch?v=vwJoXQwv7AI)
