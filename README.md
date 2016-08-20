@@ -26,5 +26,5 @@ Server started
 6. HTML 부분을 원하는대로 편집한다.(이미지 링크도 잘 됨.)  
 
 
-관련 동영상은 아래 사진을 클릭하세요.  
+//관련 동영상은 아래 사진을 클릭하세요.  
 [![](https://raw.githubusercontent.com/mtinet/ESP8266_12E/master/image.png)](https://www.youtube.com/watch?v=vwJoXQwv7AI)
